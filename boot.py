@@ -18,7 +18,7 @@ routercon = network.WLAN(network.STA_IF)
 routercon.active()
 routercon.active(True)
 routercon.connect(ssid,password)
-routercon.ifconfig()
+routercon = network.WLAN(network.STA_IF)
 
 print('Connection successful')
 
